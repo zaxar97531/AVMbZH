@@ -1,0 +1,123 @@
+
+*{
+ color:rgb(255, 255, 255)
+}
+.header{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10%;
+}
+
+header{
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(165, 166, 170);
+    border: 3px solid #bee0ff;
+    border-width: 0 3px 3px 3px;
+}
+
+a {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный 
+    line-height: 1; /*Задаём высоту строки (можно в пикселях)*/
+    color:#2a8dff;/*Задаём цвет ссылки*/
+    }
+    a:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #2a9fff; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+    a:hover:after,
+    a:focus:after {
+    width: 100%;
+    }
+    a:hover{
+    color:#2a5cff;
+    } 
+
+body{
+    background: -webkit-linear-gradient(360deg, #6bd4e9,#000000,#4c69af);/* Chrome 10-25, Safari 5.1-6 */                                                                                      
+    
+}
+
+.rad{
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.discription{
+    margin-top: 140px;
+}
+
+.pp{
+    padding-top: 10px;
+}
+
+.header span{
+    display: block;
+}
+
+section{
+    padding: 30px 0;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+footer{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-top: 3px solid #a1e9ff;
+}
+
+.icons a{
+    
+    margin-top: 20px;
+}
+.d{
+    margin-left: 20px;
+}
+
+.icons{
+    margin-bottom: 20px;
+}
+
+.gg img{
+    margin-bottom: 3px;
+
+}
+
+.drom{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.drom img{
+    border-radius: 50%;
+    border: 3px solid #2aaaff;
+}
+
+.gg{
+    margin-top: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: 345px;
+    max-height: 100%;
+    border: 3px solid #2aaaff;
+
+  }
+  .a{
+    font-size: 100;
+  }
+  .aboba{
+    font-size: 50px;
+  }
+  .card-body h5{
+    color: rgb(255, 255, 255);
+  }
